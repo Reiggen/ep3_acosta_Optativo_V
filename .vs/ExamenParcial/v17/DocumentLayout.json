@@ -1,0 +1,190 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\angel\\Downloads\\ep2_acosta_Optativo_V-main\\ep2_acosta_Optativo_V-main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3102E98F-1D50-4A79-97B5-FF59629E5A27}|Repository\\Repository.csproj|c:\\users\\angel\\downloads\\ep2_acosta_optativo_v-main\\ep2_acosta_optativo_v-main\\repository\\data\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3102E98F-1D50-4A79-97B5-FF59629E5A27}|Repository\\Repository.csproj|solutionrelative:repository\\data\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6BBB4A1-1DB7-475D-9CA8-F35CCA9194BE}|Services\\Services.csproj|c:\\users\\angel\\downloads\\ep2_acosta_optativo_v-main\\ep2_acosta_optativo_v-main\\services\\logica\\clienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6BBB4A1-1DB7-475D-9CA8-F35CCA9194BE}|Services\\Services.csproj|solutionrelative:services\\logica\\clienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3102E98F-1D50-4A79-97B5-FF59629E5A27}|Repository\\Repository.csproj|c:\\users\\angel\\downloads\\ep2_acosta_optativo_v-main\\ep2_acosta_optativo_v-main\\repository\\data\\icliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3102E98F-1D50-4A79-97B5-FF59629E5A27}|Repository\\Repository.csproj|solutionrelative:repository\\data\\icliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{528DABBD-6164-4712-B208-45538F8801EB}|ExamenParcial\\ExamenParcial.csproj|c:\\users\\angel\\downloads\\ep2_acosta_optativo_v-main\\ep2_acosta_optativo_v-main\\examenparcial\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{528DABBD-6164-4712-B208-45538F8801EB}|ExamenParcial\\ExamenParcial.csproj|solutionrelative:examenparcial\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{528DABBD-6164-4712-B208-45538F8801EB}|ExamenParcial\\ExamenParcial.csproj|c:\\users\\angel\\downloads\\ep2_acosta_optativo_v-main\\ep2_acosta_optativo_v-main\\examenparcial\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{528DABBD-6164-4712-B208-45538F8801EB}|ExamenParcial\\ExamenParcial.csproj|solutionrelative:examenparcial\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6BBB4A1-1DB7-475D-9CA8-F35CCA9194BE}|Services\\Services.csproj|c:\\users\\angel\\downloads\\ep2_acosta_optativo_v-main\\ep2_acosta_optativo_v-main\\services\\validaciones\\facturavalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6BBB4A1-1DB7-475D-9CA8-F35CCA9194BE}|Services\\Services.csproj|solutionrelative:services\\validaciones\\facturavalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6BBB4A1-1DB7-475D-9CA8-F35CCA9194BE}|Services\\Services.csproj|c:\\users\\angel\\downloads\\ep2_acosta_optativo_v-main\\ep2_acosta_optativo_v-main\\services\\validaciones\\clientevalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6BBB4A1-1DB7-475D-9CA8-F35CCA9194BE}|Services\\Services.csproj|solutionrelative:services\\validaciones\\clientevalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3102E98F-1D50-4A79-97B5-FF59629E5A27}|Repository\\Repository.csproj|c:\\users\\angel\\downloads\\ep2_acosta_optativo_v-main\\ep2_acosta_optativo_v-main\\repository\\data\\facturarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3102E98F-1D50-4A79-97B5-FF59629E5A27}|Repository\\Repository.csproj|solutionrelative:repository\\data\\facturarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3102E98F-1D50-4A79-97B5-FF59629E5A27}|Repository\\Repository.csproj|c:\\users\\angel\\downloads\\ep2_acosta_optativo_v-main\\ep2_acosta_optativo_v-main\\repository\\data\\ifactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3102E98F-1D50-4A79-97B5-FF59629E5A27}|Repository\\Repository.csproj|solutionrelative:repository\\data\\ifactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6BBB4A1-1DB7-475D-9CA8-F35CCA9194BE}|Services\\Services.csproj|c:\\users\\angel\\downloads\\ep2_acosta_optativo_v-main\\ep2_acosta_optativo_v-main\\services\\logica\\facturaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6BBB4A1-1DB7-475D-9CA8-F35CCA9194BE}|Services\\Services.csproj|solutionrelative:services\\logica\\facturaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClienteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\Downloads\\ep2_acosta_Optativo_V-main\\ep2_acosta_Optativo_V-main\\Repository\\Data\\ClienteRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\Data\\ClienteRepository.cs",
+              "ToolTip": "C:\\Users\\angel\\Downloads\\ep2_acosta_Optativo_V-main\\ep2_acosta_Optativo_V-main\\Repository\\Data\\ClienteRepository.cs",
+              "RelativeToolTip": "Repository\\Data\\ClienteRepository.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAcwF8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T03:47:57.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClienteService.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\Downloads\\ep2_acosta_Optativo_V-main\\ep2_acosta_Optativo_V-main\\Services\\Logica\\ClienteService.cs",
+              "RelativeDocumentMoniker": "Services\\Logica\\ClienteService.cs",
+              "ToolTip": "C:\\Users\\angel\\Downloads\\ep2_acosta_Optativo_V-main\\ep2_acosta_Optativo_V-main\\Services\\Logica\\ClienteService.cs",
+              "RelativeToolTip": "Services\\Logica\\ClienteService.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T03:44:18.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ICliente.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\Downloads\\ep2_acosta_Optativo_V-main\\ep2_acosta_Optativo_V-main\\Repository\\Data\\ICliente.cs",
+              "RelativeDocumentMoniker": "Repository\\Data\\ICliente.cs",
+              "ToolTip": "C:\\Users\\angel\\Downloads\\ep2_acosta_Optativo_V-main\\ep2_acosta_Optativo_V-main\\Repository\\Data\\ICliente.cs",
+              "RelativeToolTip": "Repository\\Data\\ICliente.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T03:13:06.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\Downloads\\ep2_acosta_Optativo_V-main\\ep2_acosta_Optativo_V-main\\ExamenParcial\\Program.cs",
+              "RelativeDocumentMoniker": "ExamenParcial\\Program.cs",
+              "ToolTip": "C:\\Users\\angel\\Downloads\\ep2_acosta_Optativo_V-main\\ep2_acosta_Optativo_V-main\\ExamenParcial\\Program.cs",
+              "RelativeToolTip": "ExamenParcial\\Program.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwCIAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T03:03:19.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ClienteController.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\Downloads\\ep2_acosta_Optativo_V-main\\ep2_acosta_Optativo_V-main\\ExamenParcial\\Controllers\\ClienteController.cs",
+              "RelativeDocumentMoniker": "ExamenParcial\\Controllers\\ClienteController.cs",
+              "ToolTip": "C:\\Users\\angel\\Downloads\\ep2_acosta_Optativo_V-main\\ep2_acosta_Optativo_V-main\\ExamenParcial\\Controllers\\ClienteController.cs",
+              "RelativeToolTip": "ExamenParcial\\Controllers\\ClienteController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T03:04:34.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FacturaValidation.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\Downloads\\ep2_acosta_Optativo_V-main\\ep2_acosta_Optativo_V-main\\Services\\Validaciones\\FacturaValidation.cs",
+              "RelativeDocumentMoniker": "Services\\Validaciones\\FacturaValidation.cs",
+              "ToolTip": "C:\\Users\\angel\\Downloads\\ep2_acosta_Optativo_V-main\\ep2_acosta_Optativo_V-main\\Services\\Validaciones\\FacturaValidation.cs",
+              "RelativeToolTip": "Services\\Validaciones\\FacturaValidation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T03:10:23.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ClienteValidation.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\Downloads\\ep2_acosta_Optativo_V-main\\ep2_acosta_Optativo_V-main\\Services\\Validaciones\\ClienteValidation.cs",
+              "RelativeDocumentMoniker": "Services\\Validaciones\\ClienteValidation.cs",
+              "ToolTip": "C:\\Users\\angel\\Downloads\\ep2_acosta_Optativo_V-main\\ep2_acosta_Optativo_V-main\\Services\\Validaciones\\ClienteValidation.cs",
+              "RelativeToolTip": "Services\\Validaciones\\ClienteValidation.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAgwDsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T03:09:06.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IFactura.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\Downloads\\ep2_acosta_Optativo_V-main\\ep2_acosta_Optativo_V-main\\Repository\\Data\\IFactura.cs",
+              "RelativeDocumentMoniker": "Repository\\Data\\IFactura.cs",
+              "ToolTip": "C:\\Users\\angel\\Downloads\\ep2_acosta_Optativo_V-main\\ep2_acosta_Optativo_V-main\\Repository\\Data\\IFactura.cs",
+              "RelativeToolTip": "Repository\\Data\\IFactura.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T03:17:37.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FacturaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\Downloads\\ep2_acosta_Optativo_V-main\\ep2_acosta_Optativo_V-main\\Repository\\Data\\FacturaRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\Data\\FacturaRepository.cs",
+              "ToolTip": "C:\\Users\\angel\\Downloads\\ep2_acosta_Optativo_V-main\\ep2_acosta_Optativo_V-main\\Repository\\Data\\FacturaRepository.cs",
+              "RelativeToolTip": "Repository\\Data\\FacturaRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T03:18:06.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FacturaService.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\Downloads\\ep2_acosta_Optativo_V-main\\ep2_acosta_Optativo_V-main\\Services\\Logica\\FacturaService.cs",
+              "RelativeDocumentMoniker": "Services\\Logica\\FacturaService.cs",
+              "ToolTip": "C:\\Users\\angel\\Downloads\\ep2_acosta_Optativo_V-main\\ep2_acosta_Optativo_V-main\\Services\\Logica\\FacturaService.cs",
+              "RelativeToolTip": "Services\\Logica\\FacturaService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAE4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T03:16:44.918Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
