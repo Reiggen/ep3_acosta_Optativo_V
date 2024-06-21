@@ -14,6 +14,7 @@ namespace Repository.Data
         Task<ClienteModel> ConsultarAsync(int id);
         Task<IEnumerable<ClienteModel>> ListarAsync();
         Task<bool> IsDocumentoUniqueAsync(string documento);
+        bool IsUnique(String Documento);
 
     }
 }

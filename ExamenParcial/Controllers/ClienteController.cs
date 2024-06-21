@@ -12,7 +12,7 @@ namespace ExamenParcial.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class ClienteController : ControllerBase
+    public class ClienteController : Controller
     {
         private readonly ClienteService _clienteService;
         private readonly IValidator<ClienteModel> _validator;

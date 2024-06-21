@@ -92,5 +92,11 @@ namespace Repository.Data
         {
             return !await _context.Clientes.AnyAsync(c => c.documento == documento);
         }
+
+        public bool IsUnique(string documento)
+        {
+            var model = _context.Clientes.FirstOrDefault(x => x.documento == documento);
+            return model == null;
+        }
     }
 }

@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "lrVzjx2RXOg=",
+  "dgSpecHash": "lymGopN3Sec=",
   "success": true,
-  "projectFilePath": "C:\\Users\\angel\\Downloads\\ep2_acosta_Optativo_V-main\\ep2_acosta_Optativo_V-main\\ExamenParcial\\ExamenParcial.csproj",
+  "projectFilePath": "C:\\Users\\angel\\Downloads\\ep2_acosta_Optativo_V-main\\ep3_acosta_Optativo_V\\ep3_acosta_Optativo_V\\ExamenParcial\\ExamenParcial.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\angel\\.nuget\\packages\\dapper\\2.1.35\\dapper.2.1.35.nupkg.sha512",
+    "C:\\Users\\angel\\.nuget\\packages\\efcore.checkconstraints\\8.0.1\\efcore.checkconstraints.8.0.1.nupkg.sha512",
     "C:\\Users\\angel\\.nuget\\packages\\fluentvalidation\\11.9.2\\fluentvalidation.11.9.2.nupkg.sha512",
+    "C:\\Users\\angel\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\angel\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
     "C:\\Users\\angel\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\angel\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\angel\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.3\\microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",

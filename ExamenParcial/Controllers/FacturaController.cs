@@ -5,17 +5,24 @@ using Services.Logica;
 using System.Threading.Tasks;
 using System;
 using System.ComponentModel.DataAnnotations;
+using FluentValidation;
+using FluentValidation.Results;
+using Repository.Context;
 
 namespace api.personas.Controllers
 {
-
+    [ApiController]
+    [Route("[controller]")]
     public class FacturaController : Controller
     {
-        private FacturaService facturaService;
+        private readonly FacturaService _facturaService;
+        private readonly IValidator<FacturaModel> _validator;
 
-        public FacturaController(Repository.Context.ContextoAplicacionDB context)
+
+        public FacturaController(ContextoAplicacionDB context, IValidator<FacturaModel> validator)
         {
-            facturaService = new FacturaService(context);
+            _facturaService = new FacturaService(context);
+            _validator = validator;
         }
 
         [HttpGet("Listar Facturas")]
@@ -23,7 +30,7 @@ namespace api.personas.Controllers
         {
             try
             {
-                var facturas = await facturaService.ListarAsync();
+                var facturas = await _facturaService.ListarAsync();
                 return Ok(facturas);
             }
             catch (Exception ex)
@@ -35,7 +42,7 @@ namespace api.personas.Controllers
         [HttpGet("Consultar Factura/{id}")]
         public async Task<ActionResult> ConsultarAsync(int id)
         {
-            var factura = await facturaService.ConsultarAsync(id);
+            var factura = await _facturaService.ConsultarAsync(id);
             if (factura == null)
             {
                 return NotFound();
@@ -46,8 +53,20 @@ namespace api.personas.Controllers
         [HttpPost("Agregar Factura")]
         public async Task<ActionResult> AgregarAsync(FacturaModel factura)
         {
-            await facturaService.AgregarAsync(factura);
-            return View();/*
+            var validationResult = await _validator.ValidateAsync(factura);
+
+            if (!validationResult.IsValid)
+            {
+                foreach (var error in validationResult.Errors)
+                {
+                    ModelState.AddModelError(error.PropertyName, error.ErrorMessage);
+                }
+                return BadRequest(ModelState);
+            }
+
+            await _facturaService.AgregarAsync(factura);
+            return Ok("La factura ha sido agregada correctamente");
+        }/*
             if (ModelState.IsValid)
             {
                 await facturaService.AgregarAsync(factura);
@@ -57,28 +76,37 @@ namespace api.personas.Controllers
             {
                 return BadRequest(ModelState);
             }*/
-        }
 
         [HttpPut("Modificar factura")]
         public async Task<ActionResult> ModificarAsync(int id, FacturaModel factura)
         {
             if (id != factura.id)
             {
-                return BadRequest();
+                return BadRequest("ID mismatch");
             }
-            await facturaService.ModificarAsync(factura);
+            var validationResult = await _validator.ValidateAsync(factura);
+
+            if (!validationResult.IsValid)
+            {
+                foreach (var error in validationResult.Errors)
+                {
+                    ModelState.AddModelError(error.PropertyName, error.ErrorMessage);
+                }
+                return BadRequest(ModelState);
+            }
+            await _facturaService.ModificarAsync(factura);
             return NoContent();
         }
 
         [HttpDelete("Eliminar Factura/{id}")]
         public async Task<ActionResult> EliminarAsync(int id)
         {
-            var factura = await facturaService.ConsultarAsync(id);
+            var factura = await _facturaService.ConsultarAsync(id);
             if (factura == null)
             {
                 return NotFound();
             }
-            await facturaService.EliminarAsync(id);
+            await _facturaService.EliminarAsync(id);
             return NoContent();
         }
     }

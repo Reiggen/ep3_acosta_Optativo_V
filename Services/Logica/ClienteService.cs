@@ -27,7 +27,6 @@ namespace Services.Logica
             }
         }
 
-
         public async Task<ClienteModel> ConsultarAsync(int id)
         {
             return await _clienteRepository.ConsultarAsync(id);
@@ -37,7 +36,14 @@ namespace Services.Logica
         {
             if (ValidacionCliente(modelo))
             {
-                return await _clienteRepository.ModificarAsync(modelo);
+                if (await _clienteRepository.IsDocumentoUniqueAsync(modelo.documento))
+                {
+                    return await _clienteRepository.ModificarAsync(modelo);
+                }
+                else
+                {
+                    throw new Exception("Documento is not unique.");
+                }
             }
             else
             {
